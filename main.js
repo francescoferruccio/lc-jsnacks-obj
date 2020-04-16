@@ -24,10 +24,10 @@ $("button").click(
     var input = $("#inputPeso").val();
     palla.peso = input;
 
-    $("#output").html("");
+    $("#output").html("Proprietà oggetto creato:");
 
     for (var key in palla) {
-      $("#output").append("<p>" + key + " " + palla[key] + "</p>");
+      $("#output").append("<p>" + key + ": " + palla[key] + "</p>");
     }
 
   }
